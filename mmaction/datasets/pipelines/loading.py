@@ -79,7 +79,6 @@ class LoadHVULabel:
 
 
 @PIPELINES.register_module()
-@PIPELINES.register_module()
 class SampleFrames(object):
     """Sample frames from the video.
     Required keys are "filename", "total_frames", "start_index" , added or
